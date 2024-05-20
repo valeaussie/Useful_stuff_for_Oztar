@@ -20,7 +20,7 @@ If the command returns something like:
 
 *no jupyter-notebook in ...*
 
-then you have tp add these modules:
+then you have to add these modules:
 
 .. code:: bash
   
