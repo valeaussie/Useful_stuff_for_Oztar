@@ -60,13 +60,13 @@ Start a jupyter-notebook server but without a browser by running the following c
 
 The "--ip=$HOST" flag specifies that the notebook server will listen on daveXX IP address rather than localhost.
 
-If the server successfully launches, it should print something like:
+If the server successfully launches, it should print something like this:
 
 *To access the notebook, open this file in a browser:*
     *file:///home/vdimarco/.local/share/jupyter/runtime/nbserver-3570438-open.html*
 *Or copy and paste one of these URLs:*
     *http://dave41:8888/?token=68b218d3bf779bcc286383a66b7a3884075ed322a17d97de*
- *or http://127.0.0.1:8888/?token=68b218d3bf779bcc286383a66b7a3884075ed322a17d97de*
+*or http://127.0.0.1:8888/?token=68b218d3bf779bcc286383a66b7a3884075ed322a17d97de*
 
 Note the port number that the server binds to (8888 in this case), let's call it the *remote_port*, as we're going to use it in the next step. You can also specify a different port by using the "--port" option.
 
